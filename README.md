@@ -28,15 +28,16 @@ Amazon review data: "Sunny Health & Fitness SF-B901 Pro Indoor Cycling Excellenc
   - nltk의 English stopwords를 사용하여 불용어와 구두점 제거  
   - Stemming (SnowballStemmer, LancasterStemmer PorterStemmer 사용)  
   - Lemmatization -> 명사, 형용사, 동사, 부사 추출  
-  - 한 줄로 합치기  
-  예시) ![preprocessing](https://user-images.githubusercontent.com/46666833/163947613-63347170-2032-4655-a71f-127c12cf1a17.PNG)  
+  - 한 줄로 합치기   
+  예시) 
+    ![preprocessing](https://user-images.githubusercontent.com/46666833/163947613-63347170-2032-4655-a71f-127c12cf1a17.PNG)    
   => ```Preprocessing.ipynb```
   
   - TF-IDF 기반 키워드 매트리스 생성, gephi 입력용 인접행렬 생성 => ```Network.ipynb``` -> ```to_gephi.csv```
 2. 네트워크 분석
-  - 전체 리뷰에서 나타난 단어 
+  - 전체 리뷰에서 나타난 단어   
     ![network1](https://user-images.githubusercontent.com/46666833/163948528-0fccf092-dfe3-4a9c-a53b-5c275d8f554f.PNG)  
-  - helpful 1 이상에서 나타난 단어  
+  - helpful 1 이상에서 나타난 단어    
     ![network2](https://user-images.githubusercontent.com/46666833/163948592-9d4de901-13c7-4eb2-a90d-5e9b8e3d9cff.PNG)
 3. 감성 분석
   - 속성별 단어 사전 구축
