@@ -29,8 +29,11 @@ Amazon review data: "Sunny Health & Fitness SF-B901 Pro Indoor Cycling Excellenc
   - Stemming (SnowballStemmer, LancasterStemmer PorterStemmer 사용)  
   - Lemmatization -> 명사, 형용사, 동사, 부사 추출  
   - 한 줄로 합치기   
+  
   예시) 
+    
     ![preprocessing](https://user-images.githubusercontent.com/46666833/163947613-63347170-2032-4655-a71f-127c12cf1a17.PNG)    
+  
   => ```Preprocessing.ipynb```
   
   - TF-IDF 기반 키워드 매트리스 생성, gephi 입력용 인접행렬 생성 => ```Network.ipynb``` -> ```to_gephi.csv```
