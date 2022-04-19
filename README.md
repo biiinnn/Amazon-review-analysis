@@ -55,7 +55,8 @@ Amazon review data: "Sunny Health & Fitness SF-B901 Pro Indoor Cycling Excellenc
 
 ### 분석 결과
  ![result1](https://user-images.githubusercontent.com/46666833/163949960-99c158a5-bcee-4e0e-be64-676d3f9436a4.PNG)  
- ![visual](https://user-images.githubusercontent.com/46666833/163949989-32fccc48-c30c-4733-b8ac-f189114f7dee.png)
+  ![visual](https://user-images.githubusercontent.com/46666833/163952310-27d3a2cc-9b5d-46a8-af9c-0af7d3d85625.png)
+
 
 ### 요약 및 한계점
 - 속성별 시각화를 통해 상품에 대한 평가를 보다 자세하게 할 수 있음
