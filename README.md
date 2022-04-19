@@ -32,16 +32,18 @@ Amazon review data: "Sunny Health & Fitness SF-B901 Pro Indoor Cycling Excellenc
   
   예시) 
     
-    ![preprocessing](https://user-images.githubusercontent.com/46666833/163947613-63347170-2032-4655-a71f-127c12cf1a17.PNG)    
+  ![preprocessing](https://user-images.githubusercontent.com/46666833/163947613-63347170-2032-4655-a71f-127c12cf1a17.PNG)    
   
   => ```Preprocessing.ipynb```
   
   - TF-IDF 기반 키워드 매트리스 생성, gephi 입력용 인접행렬 생성 => ```Network.ipynb``` -> ```to_gephi.csv```
+
 2. 네트워크 분석
   - 전체 리뷰에서 나타난 단어   
     ![network1](https://user-images.githubusercontent.com/46666833/163948528-0fccf092-dfe3-4a9c-a53b-5c275d8f554f.PNG)  
   - helpful 1 이상에서 나타난 단어    
     ![network2](https://user-images.githubusercontent.com/46666833/163948592-9d4de901-13c7-4eb2-a90d-5e9b8e3d9cff.PNG)
+
 3. 감성 분석
   - 속성별 단어 사전 구축
     - 네트워크 분석 기반 카테고리를 세분화하고 word2vec을 활용하여 각 카테고리에 맞는 키워드를 선정
